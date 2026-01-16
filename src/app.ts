@@ -28,7 +28,7 @@ const bootstrap = async () => {
 
   // Disable `x-powered-by` header for security reasons
   app.disable("x-powered-by");
-
+ 
   // Set view engine to ejs
   app.set("view engine", "ejs");
 
